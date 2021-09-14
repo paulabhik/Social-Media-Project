@@ -1,0 +1,19 @@
+<div class="container my-2">
+    <h1 class="h1 text-center">Write Post</h1>
+  
+    <!-- Write Post form -->
+    <form>
+        <div class="form-group">
+            <label for="title"> <b>Post title</b></label>
+            <input type="text" class="form-control" id="title" placeholder="Enter new task">
+            <small id="newTaskHelp" class="form-text text-muted">A short description of your post</small>
+        </div>
+        <div class="form-group">
+            <label for="body"><b>Your Post</b></label>
+            <textarea class="form-control rounded-0" id="body" rows="10"></textarea>
+        </div>
+        <button type = "submit" id = "submitPost" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<script src = "app/write-posts.js"></script>
